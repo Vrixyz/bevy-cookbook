@@ -155,7 +155,7 @@ fn setup(mut commands: Commands) {
     commands.insert_resource(MyCursorState {
         cursor: Default::default(),
         camera_e: e,
-    };
+    });
 }
 ```
 
